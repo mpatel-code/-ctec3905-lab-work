@@ -1,0 +1,37 @@
+body{
+  background-color:yellow;
+  font-family:sans-serif;
+}
+
+header {
+  background-color: Red;
+}
+
+main {
+  background-color: red:
+}
+
+header, main {
+  overflow: auto;
+}
+
+nav {
+  margin: 0;
+  display: flex;
+  justify content: flex-end;
+  float: right;
+  box-sizing: border-box;
+}
+
+nav a {
+  background-color:#b5e6ec;
+  color: Red;
+  padding: 0.25em 0.5em;
+  margin:0.25em 0.5em ;
+  text-decoration: none;
+  transition: background-color 0.7s;
+}
+
+nav a:hover{
+  background-color: green;
+}
